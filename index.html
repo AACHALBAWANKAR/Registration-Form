@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion Form</title>
+</head>
+<body>
+    <form action="mailto:aachalbawankar05@gmail.com?subject=Registration Form Data" method="post" enctype="text/plain">
+        <label for="Name">Name:
+            <input type="text" autocomplete="on" Name="Name:">
+        </label>
+        <br>
+        <label for="email">Email:
+            <input type="email" Name="Email:" required>
+        </label>
+        <br>
+        <label for="password">Password:
+            <input type="password" Name="Password:" required>
+        </label>
+        <br>
+        <label for="gender">Gender:
+            <label for="male">Male
+                <input type="radio" name="gender" value="male">
+            </label>
+            <label for="female">Female
+                <input type="radio" name="gender" value="female">
+            </label>
+        </label>
+        <br>
+        <label for="dob">DOB:
+            <input type="date" name="DOB" required>
+        </label>
+        <br>
+        <label for="Address">Address:
+            <input type="text" name="Address" required>
+        </label>
+        <br>
+        <label for="Pincode">Pincode:
+            <input type="number" name="Pincode" required>
+        </label>
+        <br>
+        <label for="State">State:
+            <select name="State">
+                <option>Maharashtra</option>
+                <option>Madhya Pradesh</option>
+                <option></option>
+                <option>Gujrat</option>
+                <option>Rajasthan</option>
+            </select>
+        </label>
+        <br>
+        <label for="City">City:
+            <input type="text" name="City" required>
+        </label>
+        <br>
+        <label for="Profile ">Profile Picture:
+            <input type="file" name="Profile" required>
+        </label>
+        <br>
+        <label for="color">Favorite Color:
+            <input type="color" name="Color" required>
+        </label>
+        <br>
+        <label for="price">Price:
+            <input type="Range" name="Price" readonly>
+        </label>
+        <br>
+        <label for="terms">
+            <input type="checkbox" name="Accepted">
+            I agree to all terms and conditions
+        </label>
+        <br>
+        <input type="Submit">
+        <input type="Reset">
+    </form>
+</body>
+</html>
